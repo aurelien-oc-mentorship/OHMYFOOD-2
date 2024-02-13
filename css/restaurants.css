@@ -5,7 +5,7 @@ body {
 }
 
 .logo_header img {
-	font-family: "Shrikhand";
+	font-family: "Shrikhand", sans-serif;
 }
 
 header {
@@ -84,7 +84,7 @@ main {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 0px white;
+	-webkit-text-stroke: 0 white;
 }
 
 .titre_restaurant {
@@ -246,7 +246,7 @@ h3 {
 
 @-webkit-keyframes slide {
 	0% {
-		margin-right: 0px;
+		margin-right: 0;
 		opacity: 0;
 	}
 	100% {
@@ -257,7 +257,7 @@ h3 {
 
 @keyframes slide {
 	0% {
-		margin-right: 0px;
+		margin-right: 0;
 		opacity: 0;
 	}
 	100% {
@@ -286,7 +286,6 @@ h3 {
 
 #commander {
 	height: 50px;
-	margin-bottom: 40px;
 	align-self: center;
 	cursor: pointer;
 	color: white;
